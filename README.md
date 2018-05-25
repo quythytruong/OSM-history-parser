@@ -1,5 +1,6 @@
 # OSM-history-parser
 Scripts for parsing and storing OSM history data into a PostgreSQL database
+
 *** Step 1 : Database preparation ***
 - Create a new PostgreSQL database
 - Add plugins : hstore, postgis
