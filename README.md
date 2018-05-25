@@ -9,6 +9,7 @@ Scripts for parsing and storing OSM history data into a PostgreSQL database
 *** Step 2 : Parsing and storing OSM data history with Python ***
 - Configure Python connexion settings to Postgres database : modify database.ini file
 - Import OSM data history into database : run TimeLineHandler.py
+N.B. : cf. https://github.com/Oslandia/osm-data-classification for further information
 
 *** Step 3 : Way geometry reconstruction ***
 In way_geom_optimise_avec_index_geo_propre.sql file :
