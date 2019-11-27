@@ -48,7 +48,7 @@ CREATE TABLE relationmember (
 idrel BIGINT,-- idrel is composed of id + vrel
 idmb BIGINT,
 --idrelmb VARCHAR,-- idrelmb is composed of idrel + idmb
-typemb VARCHAR, -- member type: way or node
+typemb VARCHAR, -- member type: node, way, or relation. The column values either 'n', 'w' or 'r'.
 rolemb VARCHAR -- member role in the relation : outer or inner in case of a multipolygon relation
 );
 CREATE INDEX idmb_idx ON relationmember (idmb);
