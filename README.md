@@ -1,5 +1,7 @@
 # OSM-history-parser
-Scripts for parsing and storing OSM history data into a PostgreSQL database
+Scripts for parsing and storing OSM history data into a PostgreSQL database (see conceptual diagram below).
+
+![Conceptual diagram of OSM PostGIS database](/bdd_osm_data_postgis_schema_conceptuel.png)
 
 *** Step 1 : Database preparation ***
 - Create a new PostgreSQL database
